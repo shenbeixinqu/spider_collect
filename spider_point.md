@@ -136,5 +136,121 @@ print(result)
 ['third item']
 ```
 
+## re
+
+| \w   | 匹配字母数字及下划线                  |
+| ---- | ------------------------------------- |
+| \W   | 匹配非字母数字及下划线                |
+| \s   | 匹配任意空白字符  等价于 \t \n \r  \f |
+| \S   | 匹配任意非空字符                      |
+| \d   | 匹配任意数字,等价于[0-9]              |
+| \D   | 匹配任意非数字                        |
+| *    | 匹配0个或多个                         |
+| +    | 匹配1个或多个                         |
+| ?    | 匹配0个或1个                          |
+
+
+
+| 模式    | 匹配方式                              | 返回结果                       |
+| ------- | ------------------------------------- | ------------------------------ |
+| match   | 只从字符串起始位置进行匹配            | None或者起始位置匹配成功的字符 |
+| search  | 整个字符串,并返回第一个符合要求的匹配 | 第一个匹配成功的字符           |
+| findall | 满足要求的所有匹配                    | 列表形式返回                   |
+
+**re.match**
+
+```shell
+re.match(a, b) 
+a放正则表达式,b放要匹配的字符串,如果第一个字符不符合就返回none
+
+test_str = 'www.weather.com'
+pattern = r'w'
+rm1 = re.match(pattern, test_str)
+print(rm1)
+
+匹配结果.group()  从1开始,对应匹配到的结果
+```
+
+**re.search**
+
+```shell
+在字符中查找匹配 查找到第一处立刻结束
+用法同 re.match
+```
+
+**re.findall**
+
+```shell
+遍历字符串进行匹配,返回一个list格式  没匹配到结果为[]
+```
+
+**re.I 忽略大小写匹配**
+
+```shell
+test_str = '结果R'
+pattern = r'结果r'
+rm = re.findall(pattern, test_str, re.I)
+print(rm) 	// ['结果R']
+```
+
+**re.A 匹配ASCII**
+
+```shell
+test_str = 'a结果b显示c'
+pattern = r'\w+'
+rm1 = re.findall(pattern, test_str)
+rm2 = re.findall(pattern, test_str, re.A)
+
+print(rm1)  //['a结果b显示c']
+print(rm2)  // ['a', 'b', 'c']
+```
+
+**re.S 匹配换行符**
+
+```shell
+test_str = '结果\n显示'
+pattern = r'.*'
+rm1 = re.findall(pattern, test_str)
+rm2 = re.findall(pattern, test_str, re.S)
+
+print(rm1) ['结果', '', '显示', '']
+print(rm2) ['结果\n显示', '']
+```
+
+**re.M 匹配多行模式**
+
+```shell
+当某字符中有换行符时,默认情况下是不支持换行符特性的
+test_str = '结果\n显示'
+pattern = r'^显示'
+rm1 = re.findall(pattern, test_str)
+rm2 = re.findall(pattern, test_str, re.M)
+
+print(rm1) // []
+print(rm2) // ['显示']
+```
+
+**re.sub()**
+
+```shell
+替换字符串中的匹配项
+
+phone = "2004-959-559"
+
+num = re.sub(r'\D', '', phone)
+print(num)  // 2004959559
+```
+
+**re.compile**
+
+```shell
+编译正则表达式 供match()和search()函数使用
+pattern = re.compile(r'\d+')
+m = pattern.match("one12twothree34four")
+print(m)   // None
+m = pattern.match("one12twothree34four". 3, 10)
+print(m) // 匹配对象
+```
+
 
 

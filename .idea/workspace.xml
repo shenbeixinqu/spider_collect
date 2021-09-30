@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="73c5ab8d-e6c6-4884-9e8b-61d3cbc95be3" name="Default Changelist" comment="" />
+    <list default="true" id="73c5ab8d-e6c6-4884-9e8b-61d3cbc95be3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spider_collect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spider_collect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider_point.md" beforeDir="false" afterPath="$PROJECT_DIR$/spider_point.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,42 +38,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1xgBKICyWVITNC9VaOleHFniuCH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.daili">
-    <configuration name="01_响应对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="spider_collect" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests/01_响应对象.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.re_test">
     <configuration name="daili" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="spider_collect" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,6 +103,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="get_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spider_collect" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例/gopup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/gopup/get_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="re_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spider_collect" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/re_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="wu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="spider_collect" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,10 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.re_test" />
+        <item itemvalue="Python.get_data" />
         <item itemvalue="Python.daili" />
         <item itemvalue="Python.wu" />
         <item itemvalue="Python.dingxiang_job" />
-        <item itemvalue="Python.01_响应对象" />
       </list>
     </recent_temporary>
   </component>
@@ -139,28 +193,47 @@
       <workItem from="1630833434541" duration="2065000" />
       <workItem from="1630934760550" duration="4118000" />
       <workItem from="1631193074772" duration="637000" />
+      <workItem from="1631265356920" duration="1888000" />
+      <workItem from="1631925085020" duration="893000" />
+      <workItem from="1632455157296" duration="3452000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1492" height="228" key="GridCell.Tab.0.bottom" timestamp="1630940372659">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state width="1381" height="233" key="GridCell.Tab.0.bottom" timestamp="1632468004353">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1381" height="233" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1632468004353" />
     <state width="1492" height="228" key="GridCell.Tab.0.bottom/1920.0.1536.864/0.0.1920.1080@1920.0.1536.864" timestamp="1630940372659" />
-    <state width="1492" height="228" key="GridCell.Tab.0.center" timestamp="1630940372659">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state width="1381" height="233" key="GridCell.Tab.0.center" timestamp="1632468004353">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1381" height="233" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1632468004353" />
     <state width="1492" height="228" key="GridCell.Tab.0.center/1920.0.1536.864/0.0.1920.1080@1920.0.1536.864" timestamp="1630940372659" />
-    <state width="1492" height="228" key="GridCell.Tab.0.left" timestamp="1630940372659">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state width="1381" height="233" key="GridCell.Tab.0.left" timestamp="1632468004352">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1381" height="233" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1632468004352" />
     <state width="1492" height="228" key="GridCell.Tab.0.left/1920.0.1536.864/0.0.1920.1080@1920.0.1536.864" timestamp="1630940372659" />
-    <state width="1492" height="228" key="GridCell.Tab.0.right" timestamp="1630940372659">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state width="1381" height="233" key="GridCell.Tab.0.right" timestamp="1632468004353">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state width="1381" height="233" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1632468004353" />
     <state width="1492" height="228" key="GridCell.Tab.0.right/1920.0.1536.864/0.0.1920.1080@1920.0.1536.864" timestamp="1630940372659" />
     <state width="1492" height="205" key="GridCell.Tab.1.bottom" timestamp="1630854960809">
       <screen x="1920" y="0" width="1536" height="864" />
@@ -178,9 +251,10 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state width="1492" height="205" key="GridCell.Tab.1.right/1920.0.1536.864/0.0.1920.1080@1920.0.1536.864" timestamp="1630854960809" />
-    <state x="2190" y="74" key="SettingsEditor" timestamp="1630935438470">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state x="281" y="74" key="SettingsEditor" timestamp="1631925264215">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="281" y="74" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1631925264215" />
     <state x="2190" y="74" key="SettingsEditor/1920.0.1536.864/0.0.1920.1080@1920.0.1536.864" timestamp="1630935438470" />
     <state x="2350" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1631193074566">
       <screen x="1920" y="0" width="1536" height="864" />
@@ -199,9 +273,11 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/spider_collect$wu.coverage" NAME="wu Coverage Results" MODIFIED="1630937292354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/案例/wu" />
-    <SUITE FILE_PATH="coverage/spider_collect$01_.coverage" NAME="01_响应对象 Coverage Results" MODIFIED="1630768417774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/spider_collect$re_test.coverage" NAME="re_test Coverage Results" MODIFIED="1632466995457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spider_collect$dingxiang_job.coverage" NAME="dingxiang_job Coverage Results" MODIFIED="1630834277852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/案例/丁香人才网" />
     <SUITE FILE_PATH="coverage/spider_collect$daili.coverage" NAME="daili Coverage Results" MODIFIED="1630938321417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/案例/免费代理" />
+    <SUITE FILE_PATH="coverage/spider_collect$wu.coverage" NAME="wu Coverage Results" MODIFIED="1630937292354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/案例/wu" />
+    <SUITE FILE_PATH="coverage/spider_collect$01_.coverage" NAME="01_响应对象 Coverage Results" MODIFIED="1630768417774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/requests" />
+    <SUITE FILE_PATH="coverage/spider_collect$get_data.coverage" NAME="get_data Coverage Results" MODIFIED="1631925934074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/案例/gopup" />
   </component>
 </project>
